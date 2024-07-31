@@ -15,7 +15,7 @@ const getJWTToken = ({ email }) => {
     {
       email,
     },
-    process.env.KEY_AUTH_JWT
+    "diskominfotik"
   );
 
   return jwtToken;
